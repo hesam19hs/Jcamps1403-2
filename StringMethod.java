@@ -27,7 +27,7 @@ public class StringMethod {
         String[] sp1 = Name2.split("is");
         System.out.println(Arrays.toString(sp1));
         //System.out.println(sp1.[1]);
-
+////////////////////////////////////////////////////////HandOn
         String myName = "Hesam";
         int myAge = 33;
         String Dotin = "DOTIN";
@@ -42,5 +42,18 @@ public class StringMethod {
         String HandOn5 = HandOn3.substring(0, HandOn4 + Dotin.length());
         System.out.println(HandOn5);
         System.out.println(HandOn5.toLowerCase());
+        /////////////////////////////////////////////////////////////////////
+        StringBuffer sb = new StringBuffer();
+        sb
+                .append("hellllllo")
+                .append("to")
+                .append(1)
+                .append(true)
+                .append("end")
+        ;
+
+        System.out.println(sb);
+
+
     }
 }
