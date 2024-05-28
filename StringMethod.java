@@ -30,15 +30,16 @@ public class StringMethod {
 
         String myName = "Hesam";
         int myAge = 33;
+        String Dotin = "DOTIN";
         String HandOn1 = String.format("My name is %s i have %s year old", myName, myAge);
         System.out.println(HandOn1);
         String HandOn2 = HandOn1.toUpperCase();
         System.out.println(HandOn2);
-        String HandOn3 = HandOn2.replace("HESAM", "DOTIN");
+        String HandOn3 = HandOn2.replace("HESAM", Dotin);
         System.out.println(HandOn3);
-        int HandOn4 = HandOn3.indexOf("DOTIN");
+        int HandOn4 = HandOn3.indexOf(Dotin);
         System.out.println(HandOn4);
-        String HandOn5 = HandOn3.substring(0, HandOn4 + "DOTIN".length());
+        String HandOn5 = HandOn3.substring(0, HandOn4 + Dotin.length());
         System.out.println(HandOn5);
         System.out.println(HandOn5.toLowerCase());
     }
