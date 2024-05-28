@@ -1,5 +1,6 @@
 public class Dummy {
     public static void main(String[] args) {
+        String DummyName = "Dummy";
         byte DummyAge = 13;
         short DummyHeight = 188;
         int DummyWallet = 100000;
@@ -9,6 +10,7 @@ public class Dummy {
         char FirstWordDummyName = 'D';
         boolean DummyIsDead = false;
 
+        System.out.println("Name is: " + DummyName);
         System.out.println("Dummy have " + DummyAge + " years old");
         System.out.println("Dummy's Height is: " + DummyHeight + " cm");
         System.out.println("Dummy have " + DummyWallet + " Dollars");
