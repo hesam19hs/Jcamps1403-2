@@ -17,7 +17,8 @@ public class Dummy {
         System.out.println("Dummy have " + DummyWeight + " milligrams weight");
         System.out.println("Dummy's Foot is: " + DummyFootSize + " cm");
         System.out.println("Dummy's Foot is: " + DummyFootSizeMM + " mm");
-        System.out.println("First word Dummy Name is: " + FirstWordDummyName);
+        String str = String.format("First word Dummy Name is: '%s'", FirstWordDummyName);
+        System.out.println(str);
         if(DummyIsDead == true){
             System.out.println("Dummy is Dead");
         }else{

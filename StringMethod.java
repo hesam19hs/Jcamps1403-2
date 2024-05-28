@@ -18,5 +18,8 @@ public class StringMethod {
         System.out.println(Name2.indexOf("i"));
         System.out.println(Name2.indexOf('i' ,5));
         System.out.println(Name2.replace(" ", "+"));
+
+        String str = String.format("My name is %s i am From %s", "ali", "iran");
+        System.out.println(str);
     }
 }
