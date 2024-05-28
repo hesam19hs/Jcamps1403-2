@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class StringMethod {
     public static void main(String[] args) {
         String Name1 = "Nima";
@@ -19,7 +22,24 @@ public class StringMethod {
         System.out.println(Name2.indexOf('i' ,5));
         System.out.println(Name2.replace(" ", "+"));
 
-        String str = String.format("My name is %s i am From %s", "ali", "iran");
+        String str = String.format("My name is %s i'm from %s", "Ali", "Iran");
         System.out.println(str);
+        String[] sp1 = Name2.split("is");
+        System.out.println(Arrays.toString(sp1));
+        //System.out.println(sp1.[1]);
+
+        String myName = "Hesam";
+        int myAge = 33;
+        String HandOn1 = String.format("My name is %s i have %s year old", myName, myAge);
+        System.out.println(HandOn1);
+        String HandOn2 = HandOn1.toUpperCase();
+        System.out.println(HandOn2);
+        String HandOn3 = HandOn2.replace("HESAM", "DOTIN");
+        System.out.println(HandOn3);
+        int HandOn4 = HandOn3.indexOf("DOTIN");
+        System.out.println(HandOn4);
+        String HandOn5 = HandOn3.substring(0, HandOn4 + "DOTIN".length());
+        System.out.println(HandOn5);
+        System.out.println(HandOn5.toLowerCase());
     }
 }
