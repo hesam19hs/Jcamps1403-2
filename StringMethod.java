@@ -15,5 +15,8 @@ public class StringMethod {
         System.out.println(Name1.equals(Name2));//is case-sensitive
         System.out.println(Name1.equalsIgnoreCase(Name2));//is not case-sensitive
         System.out.println(Name1.indexOf("a"));
+        System.out.println(Name2.indexOf("i"));
+        System.out.println(Name2.indexOf('i' ,5));
+        System.out.println(Name2.replace(" ", "+"));
     }
 }
