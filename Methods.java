@@ -10,7 +10,7 @@ public class Methods {
 
         System.out.println(Moraba(12));
         System.out.println(Jazr());
-        System.out.println(Miangin(10, 15));
+        System.out.println(Miangin(10.3f, 15.6f));
     }
     /*public static Integer age(int a, int b) {
         return b - a;
