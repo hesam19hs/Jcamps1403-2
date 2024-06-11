@@ -10,6 +10,7 @@ public class Methods {
 
         System.out.println(Moraba(12));
         System.out.println(Jazr());
+        System.out.println(Miangin(10, 15));
     }
     /*public static Integer age(int a, int b) {
         return b - a;
@@ -24,6 +25,9 @@ public class Methods {
         return b;
     }
 
+    public static float Miangin(float c, float d){
+        return (c + d) / 2;
+    }
     /*public static Integer calculate(int a, int b) {
         return a + b;
     }
