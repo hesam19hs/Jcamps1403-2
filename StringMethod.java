@@ -50,6 +50,7 @@ public class StringMethod {
                 .append(1)
                 .append(true)
                 .append("end")
+                .append(2)
         ;
 
         System.out.println(sb);
