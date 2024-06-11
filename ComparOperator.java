@@ -18,11 +18,13 @@ public class ComparOperator {
         System.out.println(a++);
         a--;
         System.out.println(a);*/
-        System.out.println(delta(2, 3, 4));
+        int a = 4;
+        int b = 8;
+        int d = 12;
 
+        System.out.println(a > b || b == d || d > b);
+        System.out.println(a > b && b == d && d > b);
     }
 
-    public static Integer delta(int a, int b, int c){
-        return (b * b) - (4 * a * c);
-    }
+
 }

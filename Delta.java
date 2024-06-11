@@ -1,6 +1,6 @@
 public class Delta {
     public static void main(String[] args) {
-        System.out.println(delta(2, 3, 4));
+        System.out.println(delta(2, 7, 4));
 
     }
 
