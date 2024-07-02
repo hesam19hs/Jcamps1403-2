@@ -1,7 +1,10 @@
 package Learning;
 import java.util.Date;
+
 public class Book {
     public static void main(String[] args) {
+
+
 
     }
     private String title;
@@ -27,4 +30,14 @@ public void dispalyInfo(){
         this.author = author;
     }
 
+    private boolean search(String title){
+        return this.title.equals(title);
+    }
+
+    public void printSearch(String title){
+        if (search(title))
+            System.out.println("Book");
+        else
+            System.out.println("no Book");
+    }
 }
