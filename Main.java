@@ -11,7 +11,10 @@ public class Main {
         System.out.println(r1.masahat());*/
 
         Employee e1 = new Employee("ali", "karshenas", 1000);
+        Employee e2 = new Employee("reza", "karshenas", 1100);
         System.out.println(e1.annualSalary());
         System.out.println(e1.khalesDaryafti());
+        e2.hoghogheBishtar(e1);
+        Employee.hoghogheBishtar1(e1, e2);
     }
 }
