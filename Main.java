@@ -10,7 +10,8 @@ public class Main {
         System.out.println(r1.mohit());
         System.out.println(r1.masahat());*/
 
-        Employee e1 = new Employee("ali", "karshenas", 10000000);
+        Employee e1 = new Employee("ali", "karshenas", 1000);
         System.out.println(e1.annualSalary());
+        System.out.println(e1.khalesDaryafti());
     }
 }
