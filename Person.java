@@ -13,5 +13,4 @@ public class Person {//sakhte class bedon main va faghat ba karbord moshakhasat 
     public void print(){
         System.out.println("Name is " + Name + " Age is " + Age);
     }
-
 }
