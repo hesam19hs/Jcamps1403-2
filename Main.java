@@ -7,7 +7,7 @@ public class Main {
         Person.showCount();
 
         Rectangle r1 = new Rectangle(2, 5);
-        System.out.println(r1.masahat());
         System.out.println(r1.mohit());
+        System.out.println(r1.masahat());
     }
 }
