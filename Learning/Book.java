@@ -38,7 +38,16 @@ public class Book {
         else
             System.out.println("no Book");
     }
-    static {
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private static int count = 0;//badan az clas book harchanta object ijad beshe count hamishe yek moteghayer sabet hast
+    //// be ezaye clas yek static darim
+    private String firstName;//badan az clas book harchanta object ijad beshe firstName ye instance hast ke mitone har meghdar jadidi begire
+    //yani mishe object ali dasht ba count sefr va object mohamad dasht ba count sefr
+    static {//shabih constructor hast
+        count = 5;
+        //firstName = "taghi";//inke az blovk static be firtName dastrasi nadashte bashim tabieeye vali mishe inja count ro dasht
+        //chon count male clas book hast vali firstName ro bayad azash object besazim va onja dastrasi dasht
+        //hamchenin to object sakhte shode be count ham mishe dastrasi dasht
 
     }
 }
